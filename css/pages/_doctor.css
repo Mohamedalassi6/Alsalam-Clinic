@@ -1,0 +1,180 @@
+.doctor-details {
+  margin-top: 70px;
+}
+.doctor-details .dr-ahmed {
+  border-radius: 5px;
+  background: #f1f8ff;
+}
+.doctor-details .dr-ahmed .text-par {
+  padding: 40px 45px 25px;
+}
+.doctor-details .dr-ahmed .text-par h4 {
+  color: #000a2d;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.doctor-details .dr-ahmed .text-par span {
+  color: #6c757d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.doctor-details .dr-ahmed .text-par p {
+  margin-top: 20px;
+  color: #6c757d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.doctor-details .contact-dr {
+  border-radius: 10px;
+  background: #f1f8ff;
+  margin-top: 35px;
+  padding: 40px 45px 25px;
+}
+.doctor-details .contact-dr h5 {
+  margin-bottom: 20px;
+  color: #000a2d;
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 35px;
+}
+.doctor-details .contact-dr .uper-right {
+  margin-bottom: 45px;
+}
+.doctor-details .contact-dr .uper-right .clinic-title {
+  margin-bottom: 20px;
+}
+.doctor-details .contact-dr .uper-right .clinic-title svg {
+  color: #3267ff;
+}
+.doctor-details .contact-dr .uper-right .clinic-title a {
+  color: #555555;
+  text-decoration: none;
+  padding-right: 10px;
+}
+.doctor-details .contact-dr .uper-right .clinic-title span {
+  color: #555;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.doctor-details .contact-dr .uper-right .clinic-title .one {
+  padding-right: 10px;
+}
+.doctor-details .contact-dr .media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 27px;
+}
+.doctor-details .contact-dr .media a {
+  color: #999999;
+  border-radius: 22.5px;
+  border: 1px solid #999;
+  background: #f1f8ff;
+  height: 45px;
+  width: 45px;
+  text-align: center;
+  padding-top: 11px;
+  margin-right: 15px;
+}
+.doctor-details .skills {
+  border-radius: 10px;
+  margin-top: 35px;
+  background: #f1f8ff;
+  padding: 40px 45px 25px;
+}
+.doctor-details .skills h5 {
+  margin-bottom: 20px;
+  color: #000a2d;
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 35px;
+}
+.doctor-details .skills .progress {
+  height: 35px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background: #fff;
+}
+.doctor-details .skills .progress .progress-bar h6 {
+  margin: 0;
+  padding-right: 10px;
+}
+.doctor-details .skills .progress span {
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.doctor-details .about-text .text-one h4,
+.doctor-details .about-text .text-one h5,
+.doctor-details .about-text .text-two h4,
+.doctor-details .about-text .text-two h5,
+.doctor-details .about-text .text-three h4,
+.doctor-details .about-text .text-three h5,
+.doctor-details .about-text .text-four h4,
+.doctor-details .about-text .text-four h5,
+.doctor-details .about-text .cal-us h4,
+.doctor-details .about-text .cal-us h5 {
+  color: #000a2d;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 35px;
+}
+.doctor-details .about-text .text-one p,
+.doctor-details .about-text .text-two p,
+.doctor-details .about-text .text-three p,
+.doctor-details .about-text .text-four p,
+.doctor-details .about-text .cal-us p {
+  color: #6c757d;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.48px;
+}
+.doctor-details .about-text .text-two .first,
+.doctor-details .about-text .text-four .first {
+  margin-bottom: 100px;
+}
+.doctor-details .about-text .cal-us {
+  margin-top: 50px;
+}
+.doctor-details .about-text .cal-us h5 {
+  margin-bottom: 20px;
+}
+.doctor-details .about-text .cal-us input,
+.doctor-details .about-text .cal-us textarea {
+  border-radius: 5px;
+  background: #f1f8ff;
+  border: none;
+  padding: 15px;
+  outline: none;
+}
+.doctor-details .about-text .cal-us textarea {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 150px;
+}
+.doctor-details .about-text .cal-us .checkbox label {
+  padding-right: 10px;
+}
+.doctor-details .about-text .cal-us .checkbox label span {
+  color: #3267ff;
+}
+.doctor-details .about-text .cal-us a {
+  padding: 15px 39px;
+  border-radius: 5px;
+  background: #3267ff;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 15px;
+}

@@ -1,0 +1,247 @@
+.Services {
+  margin-top: 28px;
+  background: #fff;
+}
+.Services h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #4f4f4f;
+  padding: 25px 0;
+  margin: 0;
+}
+.Services .Services-text {
+  padding: 25px 0;
+}
+.Services .Services-text .servic-icon {
+  padding: 25px 0 15px 0;
+}
+.Services .Services-text .servic-icon span {
+  padding: 16px;
+  background: #f1f8ff;
+  border: 1px solid rgba(50, 103, 255, 0.5);
+  border-radius: 50%;
+}
+.Services .Services-text .servic-icon span img {
+  width: 23px;
+  height: 22px;
+}
+.Services .Services-text .servic-icon h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #4f4f4f;
+  padding-right: 20px;
+}
+.Services .Services-text .servic {
+  padding: 30px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  margin-bottom: 40px;
+}
+.Services .Services-text .servic:hover {
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 1px 50px 0px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 1px 50px 0px rgba(0, 0, 0, 0.05);
+}
+.Services .Services-text .servic.active {
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 1px 50px 0px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 1px 50px 0px rgba(0, 0, 0, 0.05);
+}
+.Services .Services-text .servic .text p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #6c757d;
+  line-height: 1.8;
+  min-height: 130px;
+}
+.Services .Services-text .servic .text a {
+  padding: 15px 25px;
+  border-radius: 5px;
+  background: #f1f8ff;
+  border: none;
+  margin-bottom: 30px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.Services .Services-text .servic .text a:hover {
+  background: #3267ff;
+  color: #fff;
+}
+.Services .Services-text .servic .text a.active {
+  background: #3267ff;
+  color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.Services .Services-text .servic .text a.active:hover {
+  background: #f1f8ff;
+  color: #000;
+}
+
+.articles {
+  margin-top: 28px;
+  background: #fff;
+  padding-bottom: 65px;
+  margin-bottom: 28px;
+}
+.articles h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #4f4f4f;
+  padding: 25px 0;
+  margin: 0;
+}
+.articles .card {
+  margin-top: 18px;
+  border: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.articles .card:hover {
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 1px 50px 0px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 1px 50px 0px rgba(0, 0, 0, 0.05);
+}
+.articles .card.active {
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 1px 50px 0px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 1px 50px 0px rgba(0, 0, 0, 0.05);
+}
+.articles .card img {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.articles .card .card-body {
+  padding: 23px 27px 0 27px;
+}
+.articles .card .card-body .card-icons .icon svg {
+  color: #4f4f4f;
+}
+.articles .card .card-body .card-icons .icon h5 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #4f4f4f;
+  padding-right: 20px;
+  margin: 0;
+}
+@media (max-width: 1199px) {
+  .articles .card .card-body .card-icons .icon h5 {
+    font-size: 14px;
+    padding-right: 10px;
+  }
+}
+.articles .card .card-body .text p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #6c757d;
+  padding: 10px 0 23px 0;
+}
+.articles .card .card-body .text a {
+  padding: 15px 39px;
+  border-radius: 5px;
+  background: #f1f8ff;
+  border: none;
+  margin-bottom: 30px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.articles .card .card-body .text a:hover {
+  background: #3267ff;
+  color: #fff;
+}
+.articles .card .card-body .text a.active {
+  background: #3267ff;
+  color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.articles .card .card-body .text a.active:hover {
+  background: #f1f8ff;
+  color: #000;
+}
+
+.team-work {
+  background: #fff;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+.team-work h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #4f4f4f;
+  padding: 25px 0;
+  margin: 0;
+}
+.team-work .team-group {
+  padding-top: 20px;
+}
+.team-work .team-group .team-card {
+  padding: 25px 0 0;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  min-height: 500px;
+  background: #f1f8ff;
+  -webkit-box-shadow: 0px 15px 40px 0px rgba(0, 10, 45, 0.04);
+          box-shadow: 0px 15px 40px 0px rgba(0, 10, 45, 0.04);
+  position: relative;
+}
+.team-work .team-group .team-card img {
+  height: 100%;
+}
+.team-work .team-group .team-card .team-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  height: 50%;
+  padding-bottom: 32px;
+  padding: 0 30px 32px;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(60%, rgb(255, 255, 255)), to(rgba(255, 255, 255, 0)));
+  background-image: linear-gradient(to top, rgb(255, 255, 255) 60%, rgba(255, 255, 255, 0) 100%);
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+}
+.team-work .team-group .team-card .team-text h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+  padding-bottom: 10px;
+}
+.team-work .team-group .team-card .team-text span {
+  font-size: 16px;
+  font-weight: 400;
+  color: #6c757d;
+}
+.team-work .team-group .team-card .team-text .social {
+  padding: 25px 0 0;
+}
+.team-work .team-group .team-card .team-text .social a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #eee;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.team-work .team-group .team-card .team-text .social a svg {
+  color: #999;
+}
+.team-work .team-group .team-card .team-text .social a:last-child {
+  margin: 0;
+}

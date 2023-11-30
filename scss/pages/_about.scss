@@ -1,0 +1,317 @@
+// start about clinic
+.About-clinic {
+  padding: 60px 0;
+  position: relative;
+  .img-section {
+    position: absolute;
+    left: 0;
+    top: 0;
+    max-height: 100%;
+  }
+  .about-img {
+    position: relative;
+    &::before {
+      content: "";
+      width: 270px;
+      height: 270px;
+      border-radius: 10px;
+      background: #3267ff;
+      position: absolute;
+      top: -10px;
+      right: 0;
+      z-index: -1;
+    }
+    &::after {
+      content: "";
+      width: 270px;
+      height: 270px;
+      border-radius: 10px;
+      background: #3267ff;
+      position: absolute;
+      bottom: -10px;
+      left: 0;
+      z-index: -1;
+    }
+  }
+  h2 {
+    color: #232323;
+    font-size: 30px;
+    font-weight: 700;
+    span {
+      color: #3267ff;
+    }
+    @media (max-width: 767px) {
+      margin-top: 30px;
+      font-size: 25px;
+    }
+  }
+  p {
+    color: #6c757d;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .about-group {
+    .about-check {
+      img {
+        padding: 0 0 45px 10px;
+      }
+    }
+    .about-text {
+      h4 {
+        color: #000a2d;
+        font-size: 20px;
+        font-weight: 700;
+        @media (max-width: 767px) {
+          font-size: 18px;
+        }
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+  a {
+    border-radius: 5px;
+    background: #3267ff;
+    padding: 18px 50px;
+    color: #fff;
+    margin-top: 20px;
+    transition: 0.3s;
+    &:hover {
+      background: #3267ff;
+      color: #000;
+    }
+  }
+}
+
+// end about clinic
+
+// start team work
+
+.team-work {
+  background: #fff;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  padding-top: 15px;
+  .team-link {
+    text-decoration: none;
+    color: #3267ff;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    padding: 10px 15px;
+    transition: 0.3s;
+    &:hover {
+      color: #000;
+    }
+  }
+  h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #4f4f4f;
+    padding: 25px 0;
+    margin: 0;
+    span {
+      color: #3267ff;
+    }
+  }
+  .team-group {
+    padding-top: 20px;
+    .team-card {
+      padding: 25px 0 0;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      min-height: 500px;
+      background: #f1f8ff;
+      box-shadow: 0px 15px 40px 0px rgba(0, 10, 45, 0.04);
+      position: relative;
+      img {
+        height: 100%;
+      }
+      .team-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        height: 50%;
+        padding-bottom: 32px;
+        padding: 0 30px 32px;
+        background-image: linear-gradient(
+          to top,
+          rgb(255, 255, 255) 60%,
+          rgba(255, 255, 255, 0) 100%
+        );
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        z-index: 1;
+        h4 {
+          font-size: 18px;
+          font-weight: 700;
+          margin: 0;
+          padding-bottom: 10px;
+        }
+        span {
+          font-size: 16px;
+          font-weight: 400;
+          color: #6c757d;
+        }
+        .social {
+          padding: 25px 0 0;
+          a {
+            display: block;
+            width: 40px;
+            height: 40px;
+            border: 1px solid #eee;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            svg {
+              color: #999;
+            }
+          }
+          a:last-child {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+// end team work
+
+// start counter
+
+.counter {
+  padding: 40px 0;
+  background: #fff;
+  .counter-start,
+  .counter-center,
+  .counter-end {
+    margin: 20px 0;
+    .counter-text {
+      padding-right: 10px;
+      h3 {
+        color: #000a2d;
+        font-size: 48px;
+        font-weight: 800;
+        @media (max-width: 575px) {
+          font-size: 35px;
+        }
+      }
+      h6 {
+        color: #6c757d;
+        font-size: 16px;
+        font-weight: 400;
+      }
+    }
+  }
+  .counter-start {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    @media (max-width: 991px) {
+      justify-content: center;
+    }
+  }
+  .counter-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .counter-end {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    @media (max-width: 991px) {
+      justify-content: center;
+    }
+  }
+}
+
+// end counter
+
+// start commint about
+
+.commint-about {
+  padding: 24px 12px;
+  .container {
+    padding: 60px 0;
+    background-size: cover;
+    background-image: url(../image/about-image/commint-cover.png);
+    h3 {
+      color: #4f4f4f;
+      font-size: 25px;
+      font-weight: 700;
+      span {
+        color: #3267ff;
+      }
+    }
+    p {
+      color: #6c757d;
+      font-size: 20px;
+      font-weight: 400;
+      margin: 0 100px;
+      padding: 20px 0 30px 0;
+      @media (max-width: 991px) {
+        margin: 0;
+      }
+    }
+    .commt-group {
+      border-radius: 50px;
+      background: #fff;
+      box-shadow: 0px 0px 250px 0px rgba(13, 30, 58, 0.1);
+      padding: 30px;
+      margin-bottom: 30px;
+      h4 {
+        color: #4f4f4f;
+        font-size: 17px;
+        font-weight: 700;
+        padding: 40px 0;
+      }
+      hr {
+        width: 80%;
+        height: 2px;
+        background: #27477d;
+      }
+      .commt-text {
+        padding-top: 25px;
+        position: relative;
+        span {
+          padding: 10px;
+          background: #fff;
+          box-shadow: 0px 5px 60px 0px rgba(39, 71, 125, 0.18);
+          border-radius: 50%;
+          position: absolute;
+          left: -10px;
+          top: -36px;
+        }
+        .commt-name {
+          h5 {
+            color: #4f4f4f;
+            font-size: 16px;
+            font-weight: 400;
+            padding-bottom: 5px;
+          }
+          h6 {
+            color: #27477d;
+            font-size: 14px;
+            font-weight: 400;
+          }
+        }
+        .evaluation {
+          svg {
+            color: #fec624;
+          }
+        }
+      }
+    }
+  }
+}
+
+// end commint about
+
+// end details pages

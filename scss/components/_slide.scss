@@ -1,0 +1,52 @@
+// start slide
+.slide {
+  background-size: cover;
+  background-image: url(../image/details-image/details-header-3.jpg);
+  min-height: 400px;
+  position: relative;
+  img {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+  }
+  h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+  }
+  .breadcrumb {
+    .breadcrumb-item:first-child {
+      padding: 0;
+    }
+    .breadcrumb-item {
+      padding-left: 0;
+      padding-right: 8px;
+      font-size: 18px;
+      font-weight: 400px;
+      &::before {
+        content: "";
+      }
+      &::after {
+        content: "|";
+        float: none;
+        padding-right: 8px;
+        color: #fff;
+      }
+      a {
+        text-decoration: none;
+        color: #fff;
+        &:hover {
+          color: #3267ff;
+        }
+      }
+    }
+    .active {
+      color: #fff;
+      &::after {
+        content: "";
+      }
+    }
+  }
+}
+
+// Start slide

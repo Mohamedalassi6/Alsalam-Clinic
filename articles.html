@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>عيادة السلام والصحة</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- start header -->
+    <div class="header">
+      <div class="uper-par d-none d-lg-block d-flex justify-content-between">
+        <div class="container">
+          <div class="row">
+            <div class="uper-right col-sm-4 d-flex justify-content-start">
+              <div class="language">
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>Language:<span>EN</span></option>
+                  <option value="1">AR</option>
+                </select>
+              </div>
+              <div class="icons d-flex">
+                <a
+                  class="linkedin-i d-flex justify-content-center align-items-center"
+                  href="#"
+                  ><i class="fa-brands fa-linkedin-in"></i
+                ></a>
+                <a
+                  class="twitter-t d-flex justify-content-center align-items-center"
+                  href="#"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+                <a
+                  class="facebook-f d-flex justify-content-center align-items-center"
+                  href="#"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+              </div>
+            </div>
+            <div class="uper-left col-sm-8 d-flex justify-content-end">
+              <div
+                class="clinic-title d-flex justify-content-end align-items-center"
+              >
+                <span>الاقصر-مركز القرنة</span>
+                <span> ,Luxor, Egypt</span>
+                <img src="image/uper bar/Vector.svg" alt="" />
+              </div>
+              <div
+                class="clinic-title d-flex justify-content-end align-items-center"
+              >
+                <span>الإثنين - الجمعة: 9:00 صباحًا - 6:00 </span>
+                <i class="fa-regular fa-clock"></i>
+              </div>
+              <div
+                class="clinic-title d-flex justify-content-end align-items-center"
+              >
+                <a href="#">support@hospital.com</a>
+                <i class="fa-regular fa-envelope"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+
+      <nav class="navbar">
+        <div class="container flex-nowrap">
+          <a class="navbar-brand" href="index.html"
+            ><img src="image/navbar/brand.svg" alt="" /> <span>عيادتنا</span></a
+          >
+          <div
+            class="navbar-collapse d-flex justify-content-between align-items-center"
+            id="navbarNavDropdown"
+          >
+            <ul class="navbar-nav m-auto p-0 flex-row d-none d-lg-flex">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >الرئيسة</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link d-flex align-items-center"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  خدمات العيادة<i class="fa-solid fa-angle-down"></i>
+                </a>
+                <ul class="dropdown-menu position-absolute">
+                  <li>
+                    <a class="dropdown-item" href="services.html"
+                      >خدمات العيادة</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="details.html"
+                      >تفاصيل الخدمة</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link d-flex align-items-center"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  الصفحات<i class="fa-solid fa-angle-down"></i>
+                </a>
+                <ul class="dropdown-menu position-absolute">
+                  <li>
+                    <a class="dropdown-item" href="about.html">معلومات عنا</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link active d-flex align-items-center"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  مدونة ومقالات<i class="fa-solid fa-angle-down"></i>
+                </a>
+                <ul class="dropdown-menu position-absolute">
+                  <li>
+                    <a class="dropdown-item" href="articles.html"
+                      >مدونة ومقالات</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="details-articles.html"
+                      >تفاصيل المدونة والمقالات</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="call-us.html"
+                  >اتصل بنا</a
+                >
+              </li>
+            </ul>
+            <div class="coling align-items-center mr-auto d-none d-lg-flex">
+              <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+              <a href="call-us.html">اتصل بنا</a>
+              <p class="m-0">01150905339</p>
+            </div>
+          </div>
+          <!-- start side bar -->
+          <div class="side-bar">
+            <a
+              class="btn ps-0 border-0"
+              data-bs-toggle="offcanvas"
+              href="#offcanvasExample"
+              role="button"
+              aria-controls="offcanvasExample"
+            >
+              <i class="fa fa-list-ul"></i>
+            </a>
+            <div
+              class="offcanvas offcanvas-start"
+              tabindex="-1"
+              id="offcanvasExample"
+              aria-labelledby="offcanvasExampleLabel"
+            >
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                  <a class="navbar-brand" href="index.html"
+                    ><img src="image/navbar/brand.svg" alt="" />
+                    <span>عيادتنا</span></a
+                  >
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close text-reset"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <hr />
+              <div class="offcanvas-body">
+                <div class="navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav p-0 d-flex flex-column">
+                    <li class="nav-item mb-4">
+                      <a class="nav-link" aria-current="page" href="index.html"
+                        >الرئيسة</a
+                      >
+                    </li>
+                    <li class="nav-item dropdown mb-4">
+                      <a
+                        class="nav-link d-flex justify-content-between"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        خدمات العيادة<i class="fa-solid fa-angle-down"></i>
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a class="dropdown-item" href="services.html"
+                            >خدمات العيادة</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="details.html"
+                            >تفاصيل الخدمة</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown mb-4">
+                      <a
+                        class="nav-link d-flex align-items-center justify-content-between"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        الصفحات<i class="fa-solid fa-angle-down"></i>
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a class="dropdown-item" href="about.html"
+                            >معلومات عنا</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown mb-4">
+                      <a
+                        class="nav-link active d-flex align-items-center justify-content-between"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        مدونة ومقالات<i class="fa-solid fa-angle-down"></i>
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a class="dropdown-item" href="articles.html"
+                            >مدونة ومقالات</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="details-articles.html"
+                            >تفاصيل المدونة والمقالات</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item mb-4">
+                      <a
+                        class="nav-link"
+                        aria-current="page"
+                        href="call-us.html"
+                        >اتصل بنا</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <hr />
+                <div class="uper-par d-flex flex-column">
+                  <div class="container">
+                    <div class="row">
+                      <div class="uper-right">
+                        <h5 class="mb-2">معلومات الاتصال</h5>
+                      </div>
+                      <div class="uper-left">
+                        <div
+                          class="clinic-title p-0 mb-4 d-flex align-items-center"
+                        >
+                          <span>الاقصر-مركز القرنة</span>
+                          <span> ,Luxor, Egypt</span>
+                          <img src="image/uper bar/Vector.svg" alt="" />
+                        </div>
+                        <div
+                          class="clinic-title p-0 mb-4 d-flex align-items-center"
+                        >
+                          <a href="#">support@hospital.com</a>
+                          <i class="fa-regular fa-envelope"></i>
+                        </div>
+                        <div
+                          class="clinic-title p-0 mb-4 d-flex align-items-center"
+                        >
+                          <span>الإثنين - الجمعة: 9:00 صباحًا - 6:00 </span>
+                          <i class="fa-regular fa-clock"></i>
+                        </div>
+                      </div>
+                      <hr />
+                      <div class="icons d-flex justify-content-center mt-4">
+                        <a
+                          class="linkedin-i d-flex justify-content-center align-items-center ms-3"
+                          href="#"
+                          ><i class="fa-brands fa-linkedin-in"></i
+                        ></a>
+                        <a
+                          class="twitter-t d-flex justify-content-center align-items-center ms-3"
+                          href="#"
+                          ><i class="fa-brands fa-twitter"></i
+                        ></a>
+                        <a
+                          class="facebook-f d-flex justify-content-center align-items-center"
+                          href="#"
+                          ><i class="fa-brands fa-facebook-f"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- end side bar -->
+        </div>
+      </nav>
+      <hr />
+    </div>
+    <!-- end header -->
+
+    <!-- start slide -->
+    <div class="slide d-flex justify-content-center align-items-center">
+      <div class="container">
+        <img
+          class="d-none d-sm-block"
+          src="image/details-image/br-shape-1.webp.png"
+          alt="#"
+        />
+        <h2>مدونة ومقالات</h2>
+        <nav
+          aria-label="breadcrumb d-flex justify-content-center align-items-center"
+        >
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">الرئيسية</a></li>
+            <li class="breadcrumb-item active" aria-current="page">
+              مدونة ومقالات
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+    <!-- end slid -->
+
+    <!-- start articles -->
+
+    <div class="articles-page">
+      <div class="container">
+        <h2 class="text-center text-lg-end">
+          ابق على اطلاع باحدث الاخبار ومقالات المدونة.
+        </h2>
+        <hr />
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card" style="width: 100%">
+              <img
+                src="image/articales/card1.png"
+                class="card-img-top"
+                alt=""
+              />
+              <div class="card-body">
+                <div class="card-icons d-flex justify-content-between">
+                  <div class="icon d-flex align-items-center">
+                    <i class="fa-regular fa-folder-closed fa-xl"></i>
+                    <h5>صحة الفم</h5>
+                  </div>
+                  <div class="icon d-flex align-items-center">
+                    <i class="fa-regular fa-user fa-xl"></i>
+                    <h5>محمد العاصى</h5>
+                  </div>
+                </div>
+                <div class="text">
+                  <p>
+                    المشكلة الصحية التي تواجهونها، نحن نؤمن بأهمية الرعاية
+                    الشاملة ونعمل جاهدين على تقديم الحلول المثلى والملائمة لكل
+                    حالة.
+                  </p>
+                  <a
+                    class="btn text-center text-lg-end"
+                    href="details-articles.html"
+                    >اقرأ اكثر</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card active" style="width: 100%">
+              <img
+                src="image/articales/card2.png"
+                class="card-img-top"
+                alt=""
+              />
+              <div class="card-body">
+                <div class="card-icons d-flex justify-content-between">
+                  <div class="icon d-flex align-items-center">
+                    <i class="fa-regular fa-folder-closed fa-xl"></i>
+                    <h5>صحة الفم</h5>
+                  </div>
+                  <div class="icon d-flex align-items-center">
+                    <i class="fa-regular fa-user fa-xl"></i>
+                    <h5>عبدالله العاصى</h5>
+                  </div>
+                </div>
+                <div class="text">
+                  <p>
+                    المشكلة الصحية التي تواجهونها، نحن نؤمن بأهمية الرعاية
+                    الشاملة ونعمل جاهدين على تقديم الحلول المثلى والملائمة لكل
+                    حالة.
+                  </p>
+                  <a class="btn active" href="details-articles.html"
+                    >اقرأ اكثر</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card" style="width: 100%">
+              <img
+                src="image/articales/card3.png"
+                class="card-img-top"
+                alt=""
+              />
+              <div class="card-body">
+                <div class="card-icons d-flex justify-content-between">
+                  <div class="icon d-flex align-items-center">
+                    <i class="fa-regular fa-folder-closed fa-xl"></i>
+                    <h5>صحة الفم</h5>
+                  </div>
+                  <div class="icon d-flex align-items-center">
+                    <i class="fa-regular fa-user fa-xl"></i>
+                    <h5>مصطفي امين</h5>
+                  </div>
+                </div>
+                <div class="text">
+                  <p>
+                    المشكلة الصحية التي تواجهونها، نحن نؤمن بأهمية الرعاية
+                    الشاملة ونعمل جاهدين على تقديم الحلول المثلى والملائمة لكل
+                    حالة.
+                  </p>
+                  <a class="btn" href="details-articles.html">اقرأ اكثر</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end articles -->
+
+    <!-- start footer -->
+
+    <div class="footer">
+      <img class="img-start" src="image/footer/div.decor__start.png" alt="" />
+      <img class="img-end" src="image/footer/div.decor__end.png" alt="" />
+      <div class="container">
+        <div
+          class="footer-head d-flex justify-content-between align-items-center"
+        >
+          <div class="foot-logo">
+            <a href="index.html"
+              ><img src="image/navbar/brand.svg" alt="" />
+              <span>عيادتنا</span></a
+            >
+          </div>
+          <div
+            class="foot-icons d-flex justify-content-center align-items-center"
+          >
+            <a
+              class="linkedin d-flex justify-content-center align-items-center"
+              href="#"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+            <a
+              class="twitter d-flex justify-content-center align-items-center"
+              href="#"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a
+              class="facebook d-flex justify-content-center align-items-center"
+              href="#"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="row footer-lists">
+          <div class="col-md-6 col-lg-3 mb-4">
+            <h5>معلومات عنا</h5>
+            <p>
+              عيادتنا هي مركز طبي متخصص يقدم خدمات طبية شاملة ومتنوعة. نحن نهتم
+              بصحة وراحة مرضانا،
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-4 d-flex flex-column">
+            <h5 class="active">خدمات</h5>
+            <a href="#"
+              ><i class="fa-solid fa-angle-left"></i>مركز إعادة التأهيل</a
+            >
+            <a href="#"
+              ><i class="fa-solid fa-angle-left"></i>الاستشارة الطبية</a
+            >
+            <a href="#"><i class="fa-solid fa-angle-left"></i>خدمات الطوارئ</a>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-4">
+            <h5 class="active">منشورات المعرض</h5>
+            <div
+              class="footer-img d-flex align-items-center justify-content-start"
+            >
+              <img src="image/footer/footer1.png" alt="" />
+              <img src="image/footer/footer2.png" alt="" />
+              <img src="image/footer/footer3.png" alt="" />
+            </div>
+            <div
+              class="footer-img d-flex align-items-center justify-content-start"
+            >
+              <img src="image/footer/footer1.png" alt="" />
+              <img src="image/footer/footer2.png" alt="" />
+              <img src="image/footer/footer3.png" alt="" />
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-4">
+            <h5>ساعات الزيارة</h5>
+            <div
+              class="visited d-flex justify-content-between align-items-center"
+            >
+              <ul class="list-unstyled p-0">
+                <li>الإثنين - الجمعة</li>
+                <li>السبت</li>
+                <li>الأحد</li>
+              </ul>
+              <ul class="list-unstyled p-0">
+                <li>8:00 صباحًا - 8:00 مساءً</li>
+                <li>6:00 صباحًا - 9:00 مساءً</li>
+                <li>6:00 صباحًا - 8:00 مساءً</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="manegar">
+          <div class="manegar-coling">
+            <i class="fa-solid fa-phone"></i>
+            <a href="#">01150905339</a>
+          </div>
+          <div
+            class="manegar-text d-flex justify-content-start align-items-center"
+          >
+            <div class="manegar-img">
+              <img src="image/footer/manegar.png" alt="" />
+            </div>
+            <div class="manegar-name">
+              <h6>دكتور محمد اسلام</h6>
+              <span>مؤسس العياده</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end footer -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
