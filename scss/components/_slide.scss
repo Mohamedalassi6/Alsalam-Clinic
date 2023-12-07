@@ -4,6 +4,22 @@
   background-image: url(../image/details-image/details-header-3.jpg);
   min-height: 400px;
   position: relative;
+  z-index: -2;
+  &::after {
+    content: "";
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    background: #000a2d;
+    opacity: 0.6;
+    left: 50%;
+    -webkit-transform: skewX(-32deg);
+    transform: skewX(-32deg);
+    z-index: -1;
+    @media (max-width: 767px) {
+      display: none;
+    }
+  }
   img {
     position: absolute;
     left: 50%;
