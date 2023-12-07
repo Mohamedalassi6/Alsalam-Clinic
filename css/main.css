@@ -2132,7 +2132,7 @@ hr {
   background-image: url(../image/details-image/details-header-3.jpg);
   min-height: 400px;
   position: relative;
-  z-index: -2;
+  z-index: 1;
 }
 .slide::after {
   content: "";
@@ -2161,6 +2161,11 @@ hr {
   font-weight: 700;
   color: #fff;
 }
+@media (max-width: 767px) {
+  .slide h2 {
+    color: #3267ff;
+  }
+}
 .slide .breadcrumb .breadcrumb-item:first-child {
   padding: 0;
 }
@@ -2183,11 +2188,21 @@ hr {
   text-decoration: none;
   color: #fff;
 }
+@media (max-width: 767px) {
+  .slide .breadcrumb .breadcrumb-item a {
+    color: #000;
+  }
+}
 .slide .breadcrumb .breadcrumb-item a:hover {
   color: #3267ff;
 }
 .slide .breadcrumb .active {
   color: #fff;
+}
+@media (max-width: 767px) {
+  .slide .breadcrumb .active {
+    color: #000;
+  }
 }
 .slide .breadcrumb .active::after {
   content: "";
